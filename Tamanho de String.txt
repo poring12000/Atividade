@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+  int soma=0;
+  char string[100];
+  scanf("%[^\n]s", string);
+  getchar();
+  int n = (int)strlen(string);
+  printf("%d", n);
+  return 0;
+}
